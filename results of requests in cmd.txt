@@ -1,0 +1,21 @@
+1.
+
+dbknex=# SELECT * FROM players;
+
+ id | player_name | player_email
+----+-------------+---------------
+  1 | John        | John@mail.ru
+  2 | Mark        | Mark@mail.ru
+  3 | Alice       | Alice@mail.ru
+  4 | Pete        | Pete@mail.ru
+(4 строки)
+
+
+2.
+
+dbknex=# SELECT * FROM game_results;
+ id | winner_id | loser_id |             date
+----+-----------+----------+-------------------------------
+  1 |         1 |        2 | 2022-04-28 22:39:31.198172+05
+  2 |         3 |        4 | 2022-04-28 22:39:31.198172+05
+(2 строки)
